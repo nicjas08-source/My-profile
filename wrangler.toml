@@ -1,0 +1,13 @@
+name = "agentic-profile"
+main = "src/worker.js"
+compatibility_date = "2025-10-01"
+
+# Create the namespace with: npx wrangler kv namespace create PROFILES
+# then paste the id it prints below.
+[[kv_namespaces]]
+binding = "PROFILES"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+# Optional: set if you serve from a custom domain and want absolute links to use it.
+# [vars]
+# BASE_URL = "https://profile.example.com"
