@@ -1,0 +1,26 @@
+{
+  "name": "agentic-profile",
+  "version": "0.1.0",
+  "description": "Agentic Profile Network v1: a profile you own, shared by QR, with an MCP agent.",
+  "scripts": {
+    "dev": "node server/dev.js",
+    "test": "node --test",
+    "deploy": "npx wrangler deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicjas08-source/My-profile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicjas08-source/My-profile/issues"
+  },
+  "homepage": "https://github.com/nicjas08-source/My-profile#readme",
+  "dependencies": {
+    "uqr": "^0.1.3"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
